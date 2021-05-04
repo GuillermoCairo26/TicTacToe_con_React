@@ -1,13 +1,61 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,226,27,1) 63%, rgba(0,212,255,1) 100%);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+    background-color: whitesmoke;
+    margin-top: 10px;
+    width: 700px;
+    height: 600px;
+    border: 5px inset rgb(8, 1, 80);
+}
 
-*/
+.titulo_principal {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: black;
+}
+
+.estados {
+    text-align: center;
+    justify-content: center;
+    background-color: green;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.boton_volver {
+    margin-left: 287px;
+    
+}
+
+.row {
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+.col-4 {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+    border: black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    // cursor: pointer;
+}
+
+.boton {
+    background-color: transparent;
+    border: transparent;
+}
+
+
+

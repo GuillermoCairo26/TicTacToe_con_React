@@ -1,24 +1,41 @@
 import React from "react";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
 //create your first component
 export function Home() {
 	return (
-		<div className="text-center mt-5">
-			<h1>Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+		<div className="container">
+			{/* Titulo principal del juego */}
+			<div className="titulo_principal">
+				<h1>Tres en línea en React.js</h1>
+			</div>
+
+			{/* Estado del juego */}
+			<div className="estados">
+				<h3>Aqui se vera el estado de la partida</h3>
+			</div>
+
+			{/* Botón volver a empezar */}
+			<div>
+				<button className="boton_volver">Start Over</button>
+			</div>
+
+			{/* Tablero de juego */}
+			<div className="container-fluid content">
+				<div className="row">
+					{gamepad.map((e, i) => {
+						retunr(
+							<div
+								key={i}
+								className="col-4 itc-box border"
+								onClick={() => {
+									marcar(i);
+								}}>
+								<p>{e}</p>
+							</div>
+						);
+					})}
+				</div>
+			</div>
 		</div>
 	);
 }
