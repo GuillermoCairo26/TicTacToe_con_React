@@ -23,7 +23,6 @@ body {
 .estados {
     text-align: center;
     justify-content: center;
-    background-color: green;
     font-size: 10px;
     margin-bottom: 10px;
 }
@@ -34,27 +33,21 @@ body {
 }
 
 .row {
+    width: 500px;
     margin: auto;
-    width: 70%;
-    height: 70%;
-    background-color: transparent;
-    margin-top: 10px;
 }
 
 .col-4 {
-    font-size: 80px;
-    font-weight: bold;
+    height: 130px;
+    cursor: pointer;
     text-align: center;
-    font-family: 'Homemade Apple', cursive;
-    border: black;
-    border-bottom: 5px solid black;
-    border-right: 5px solid black;
-    // cursor: pointer;
 }
 
-.boton {
-    background-color: transparent;
-    border: transparent;
+.container-fluid {
+    margin-top: 10px;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Homemade Apple', cursive;
 }
 
 
