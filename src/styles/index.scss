@@ -6,11 +6,16 @@ body {
 }
 
 .container {
-    background-color: whitesmoke;
+    background-color: rgb(145, 255, 42);
     margin-top: 10px;
+    margin-bottom: 10px;
     width: 700px;
-    height: 600px;
+    height: 700px;
     border: 5px inset rgb(8, 1, 80);
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .titulo_principal {
@@ -27,9 +32,21 @@ body {
     margin-bottom: 10px;
 }
 
-.boton_volver {
-    margin-left: 287px;
-    
+.form {
+    display: inline-flex;
+    width: 400px;
+    margin-bottom: 17px;
+}
+
+.btn {
+    background-color: rgb(26, 26, 112);
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-left: 10px;
+    font-size: 20px;
+    border-radius: 500px;
+    width: 60px;
+    height: 60px;
 }
 
 .row {
